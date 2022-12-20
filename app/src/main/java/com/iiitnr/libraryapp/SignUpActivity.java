@@ -219,7 +219,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
             editID.setError(" Email ID Required");
             return true;
         }
-        else if(!emailId.endsWith("@iiitnr.edu.in"))
+        else if(!emailId.endsWith("@iiu.edu.pk"))
         {
             editID.setErrorEnabled(true);
             editID.setError(" Enter Valid Email ID");

@@ -36,7 +36,7 @@ You are welcome to contribute :
 * Generalization for Flexible Usage. This App was implemented specifically for my College's Library System:
     * Books and Users are identified through unique Book IDs and Card No. respectively.
     * While issuing/re-issuing/returning a Book, 2 digits need to be added at end of its Book ID (to specify the unit number). For example, copies of a Book with ID 14532 having 25 units would have the IDs 1453201, 1453202, 1453203 ... 1453225. Book IDs are displayed in the same way in User Account's end.
-    * Email ID for registration needs to be of the domain @iiitnr.edu.in.
+    * Email ID for registration needs to be of the domain @iiu.edu.pk.
     * Books are issued for a duration of 14 days, after which a fine of Rs.1 per day is incurred (if the book is not re-issued or returned).
     * A book can be re-issued only 1 time from the User's end.
 

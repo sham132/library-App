@@ -126,7 +126,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         boolean res= (verifyEmailId()|verifyPass());
         if(res==true)
             return;
-        String id=editID.getEditText().getText().toString().trim()+"@iiitnr.edu.in";
+        String id=editID.getEditText().getText().toString().trim()+"@iiu.edu.pk";
         String pass=editPass.getEditText().getText().toString().trim();
         progressDialog.setMessage("Signing In ... ");
        progressDialog.show();
@@ -138,7 +138,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
                 System.out.println("ënter into the login area");
                 if(task.isSuccessful())
                 {
-                    String id=editID.getEditText().getText().toString().trim()+"@iiitnr.edu.in";
+                    String id=editID.getEditText().getText().toString().trim()+"@iiu.edu.pk";
                     System.out.println(id);
 
                     db.collection("User").whereEqualTo("email",id).get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
